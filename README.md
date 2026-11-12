@@ -10,7 +10,7 @@ From my MSc thesis data (southeastern Osun State, Nigeria) I built Python workfl
 Land_Cover_Change_and_Carbon_Stocks_reanalysis | Carbon pools (aboveground, belowground, soil), uncertainty, land-cover change 1985-2020, carbon-stock upscaling and stock-change estimate 
 LULCF_Analysis_using_cloud-based_satellite_data | Landsat Collection from Microsoft Planetary Computer: STAC search, cloud masking, NDVI composites, ground-truthing, classification test 
 # Skills
--Forest biomass and carbon-stock estimation, with uncertainty 
+- Forest biomass and carbon-stock estimation, with uncertainty 
 - Land-use and land-cover change analysis 
 - Carbon-stock upscaling (area x carbon per hectare) 
 - Satellite data processing in the cloud (STAC, Xarray, Dask) 
@@ -18,7 +18,7 @@ LULCF_Analysis_using_cloud-based_satellite_data | Landsat Collection from Micros
 # Data and Sources
 - M.Sc Thesis: Assessment of Land Use/Land Cover Change on Carbon Stocks in Southeastern part of Osun State, Nigeria
   Author: Remilekun Eunice Atobatele (PAULESI, University of Ibadan)
-  Related paper: Atobatele, R. E., Ikporukpo, C. O., Taiwo, O. J., & Fakunle, A. O. (2023).
+- Related paper: Atobatele, R. E., Ikporukpo, C. O., Taiwo, O. J., & Fakunle, A. O. (2023).
   International Journal of Environmental and Ecology Research, 5(1), 12-17.
 - Landsat Collection accessed through Microsoft Planetary Computer. 
 - Admin boundaries: FAO GAUL 2015.
