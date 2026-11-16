@@ -5,7 +5,7 @@ This is an extract from my M.Sc research and it mainly assessed Land Use/ Land C
 During my M.Sc research I employed Remote Sensing and GIS techniques using different software such as ArcGIS, ENVI, QGIS, Google Earth Engine, conducted field inventory for the LULCF and laboratory analysis for the soil samples.
 Major limitations to the study were small sample size and estimation of spatial variables as a constant.
 As the world grows digitally, I desired to upskill myself and included programming (python, R, SQL) in my research.
-From my MSc thesis data (southeastern Osun State, Nigeria) I built Python workflows for forest carbon and land-cover analysis, and extended with cloud-based satellite data. Notebook 02 reads Landsat from the cloud, builds NDVI composites, and tests a random-forest land-cover classification (60% leave-one-out accuracy versus 52% baseline; cropland not separable with 40 points), with its limitations stated.
+From my MSc thesis data (southeastern Osun State, Nigeria) I built Python workflows for forest carbon and land-cover analysis, and extended with cloud-based satellite data. Notebook 02 reads Landsat from the cloud, builds NDVI composites, and tests a random-forest land-cover classification.
 # Notebooks | What it entails 
 Land_Cover_Change_and_Carbon_Stocks_reanalysis | Carbon pools (aboveground, belowground, soil), uncertainty, land-cover change 1985-2020, carbon-stock upscaling and stock-change estimate 
 LULCF_Analysis_using_cloud-based_satellite_data | Landsat Collection from Microsoft Planetary Computer: STAC search, cloud masking, NDVI composites, ground-truthing, classification test 
