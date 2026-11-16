@@ -1,6 +1,6 @@
 # Forest-Carbon-Analysis
 Hi! My name is Remilekun Eunice Fakunle nee Atobatele.
-Welcome to my portfolio
+Welcome to my portfolio!
 This is an extract from my M.Sc research and it is mainly assessed Land Use/ Land Cover from1985 to 2020 in a sub-region in Nigeria and analyzed carbon across 3 carbon pools.
 During my M.Sc research I employed Remote Sensing and GIS techniques using different software such as ArcGIS, ENVI, QGIS, Google Earth Engine, conducted field inventory for the LULCF and laboratory analysis for the soil samples.
 Major limitations to the study were small sample size and estimation of spatial variables as a constant.
