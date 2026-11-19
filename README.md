@@ -1,14 +1,13 @@
 # Forest-Carbon-Analysis
-Hi! My name is Remilekun Eunice Fakunle nee Atobatele.
-Welcome to my portfolio!
-This is an extract from my M.Sc research and it mainly assessed Land Use/ Land Cover from1985 to 2020 in a sub-region in Nigeria and analyzed carbon stock across 3 carbon pools.
-During my M.Sc research I employed Remote Sensing and GIS techniques using different software such as ArcGIS, ENVI, QGIS, Google Earth Engine, conducted field inventory for the LULCF and laboratory analysis for the soil samples.
-Major limitations to the study were small sample size and estimation of spatial variables as a constant.
-As the world grows digitally, I desired to upskill myself and included programming (python, R, SQL) in my research.
-From my MSc thesis data (southeastern Osun State, Nigeria) I built Python workflows for forest carbon and land-cover analysis, and extended with cloud-based satellite data. Notebook 02 reads Landsat from the cloud, builds NDVI composites, and tests a random-forest land-cover classification.
+Hi, I'm Remilekun Eunice Fakunle (née Atobatele), an environmental scientist, and welcome to my portfolio!
+My M.Sc. research (Pan African University Institute of Life and Earth Sciences, University of Ibadan) asked a simple question: what happens to the carbon stored in the landscape of southeastern Osun State, Nigeria, when forest turns into plantations, farms and towns? I measured trees in the field, took soil samples to the laboratory, and used remote sensing and GIS (ArcGIS, ENVI, QGIS, Google Earth Engine) to follow land cover from 1985 to 2020. Dense forest declined by about 76% over those 35 years.
+My thesis was done with desktop GIS tools. This repository is where I am learning to do the same work reproducibly in Python and with cloud satellite data. I rebuilt parts of my thesis analysis in code, then asked new questions of it: can cloud-hosted Landsat data support what I found in the field, and how should satellite data be organised so a carbon model can use it? I have kept the limitations visible, including the places where my own results are weak, because I think an honest result is more useful than a polished one.
+
 # Notebooks | What it entails 
-Land_Cover_Change_and_Carbon_Stocks_reanalysis | Carbon pools (aboveground, belowground, soil), uncertainty, land-cover change 1985-2020, carbon-stock upscaling and stock-change estimate 
-LULCF_Analysis_using_cloud-based_satellite_data | Landsat Collection from Microsoft Planetary Computer: STAC search, cloud masking, NDVI composites, ground-truthing, classification test 
+- Land_Cover_Change_and_Carbon_Stocks_reanalysis | Carbon pools (aboveground, belowground, soil), uncertainty, land-cover change 1985-2020, carbon-stock upscaling and stock-change estimate 
+- LULCF_Analysis_using_cloud-based_satellite_data | Landsat Collection from Microsoft Planetary Computer: STAC search, cloud masking, NDVI composites, ground-truthing, classification test 
+- Model_ready_netCDF |Model-ready Earth observation data using Landsat NDVI cube as NetCDF (Xarray + Dask)
+
 # Skills
 - Forest biomass and carbon-stock estimation, with uncertainty 
 - Land-use and land-cover change analysis 
